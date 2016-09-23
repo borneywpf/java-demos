@@ -15,4 +15,8 @@ public final class Print {
     public static void println(String format, Object... args) {
         System.out.println(String.format(format, args));
     }
+
+    public static void println(Throwable ex) {
+
+    }
 }
